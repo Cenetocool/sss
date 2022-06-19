@@ -1,3 +1,0 @@
-if _G.Key == "123" then 
-
-print("yes")
