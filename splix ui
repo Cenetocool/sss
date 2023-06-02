@@ -1883,7 +1883,7 @@ do
                 Visible = page.open
             }, section.visibleContent)
             --
-            utility:LoadImage(keybind__gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")
+            utility:LoadImage(keybind__gradient, "gradient", "")
             --
             function keybind:Shorten(string)
                 for i,v in pairs(shortenedInputs) do
@@ -2871,7 +2871,7 @@ do
             Visible = page.open
         }, section.visibleContent)
         --
-        utility:LoadImage(keybind__gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")
+        utility:LoadImage(keybind__gradient, "gradient", "")
         --
         function keybind:Shorten(string)
             for i,v in pairs(shortenedInputs) do
