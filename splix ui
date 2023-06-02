@@ -2729,7 +2729,7 @@ do
                                 Visible = page.open
                             }, multibox.holder.drawings)
                             --
-                            utility:LoadImage(multibox_value_gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")]]
+                            utility:LoadImage(multibox_value_gradient, "gradient", "")]]
                             --
                             local multibox_value = utility:Create("TextLabel", {Vector2.new(table.find(multibox.current, v) and 8 or 6,2), multibox_value_frame}, {
                                 Text = v,
@@ -3021,7 +3021,7 @@ do
                         Visible = page.open
                     }, keybind.modemenu.drawings)
                     --
-                    utility:LoadImage(keybind__gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")
+                    utility:LoadImage(keybind__gradient, "gradient", "")
                     --
                     for i,v in pairs({"Always", "Toggle", "Hold"}) do
                         local button_title = utility:Create("TextLabel", {Vector2.new(modemenu_frame.Size.X/2,15 * (i-1)), modemenu_frame}, {
@@ -3131,7 +3131,7 @@ do
         if transp then
             utility:LoadImage(colorpicker__transparency, "cptransp", "https://i.imgur.com/IIPee2A.png")
         end
-        utility:LoadImage(colorpicker__gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")
+        utility:LoadImage(colorpicker__gradient, "gradient", "")
         --
         function colorpicker:Set(color, transp_val)
             if typeof(color) == "table" then
